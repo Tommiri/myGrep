@@ -1,2 +1,4 @@
 /.idea/
 /cmake-build-debug/
+.DS_Store
+man_grep_plain_ASCII.txt
