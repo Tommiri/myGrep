@@ -1,7 +1,6 @@
 # myGrep
 
-A command-line program made to mimic some functionalities of Linux's "grep"-utility. This program was made as a project
-for our "Advanced Features of C++" -course
+A simple command-line program made to mimic some functionalities of Linux's "grep" -utility.
 
 ## Table of Contents
 
