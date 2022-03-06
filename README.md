@@ -19,6 +19,7 @@ $ git clone https://github.com/Tommiri/myGrep.git
 ```
 
 <br>
+
 Build the executable:
 
 ```
@@ -28,6 +29,7 @@ include/searchFromString.h -o myGrep
 ```
 
 <br>
+
 Run the program from your terminal using this syntax:
 
 ```
