@@ -69,5 +69,7 @@ The program will search for the keyword from the given file.
 ~ $ ./myGrep options keyword filename
 ```
 
-The program will search for the keyword from the given file using user-given options. Options are accessed using the '
+The program will search for the keyword from the given file using user-given options.
+
+Options are accessed using the '
 -o' prefix (e.g. -ol). See above for available options and their functionalities.
