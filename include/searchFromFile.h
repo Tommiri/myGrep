@@ -1,5 +1,9 @@
 #ifndef MYGREP_SEARCHFROMFILE_H
 #define MYGREP_SEARCHFROMFILE_H
+
+#include <fstream>
+#include <string>
+
 using namespace std;
 
 bool searchFromFile(const string &, string, const string &);

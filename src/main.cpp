@@ -1,6 +1,6 @@
 #include <iostream>
-#include "searchFromFile.h"
-#include "searchFromString.h"
+#include "../include/searchFromFile.h"
+#include "../include/searchFromString.h"
 
 void printUsage();
 

@@ -3,4 +3,5 @@ project(myGrep)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(myGrep main.cpp searchFromFile.h searchFromFile.cpp searchFromString.h searchFromString.cpp)
+add_executable(myGrep src/main.cpp include/searchFromFile.h src/searchFromFile.cpp include/searchFromString.h
+        src/searchFromString.cpp)

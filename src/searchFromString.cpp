@@ -1,7 +1,7 @@
 #include <iostream>
 #include <iomanip>
 #include <string>
-#include "searchFromString.h"
+#include "../include/searchFromString.h"
 
 void searchFromString()
 {

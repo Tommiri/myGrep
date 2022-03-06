@@ -3,7 +3,7 @@
 #include <iomanip>
 #include <string>
 #include <algorithm>
-#include "searchFromFile.h"
+#include "../include/searchFromFile.h"
 
 // Function parameters are const references when possible to avoid unnecessary copying of variables
 bool searchFromFile(const string &arg, string search, const string &fileName)
@@ -23,6 +23,7 @@ bool searchFromFile(const string &arg, string search, const string &fileName)
     {
         if (!checkCmdLineArgs(arg, getLineNumber, getOccurrence, getReverse, ignoreCase))
         {
+            cerr << "ERROR: Invalid options\n\n";
             file.close();
             return false;
         }
@@ -137,7 +138,6 @@ bool checkCmdLineArgs(const string &arg, bool &getLineNumber, bool &getOccurrenc
         }
         return true;
     }
-
     return false;
 }
 
