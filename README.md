@@ -14,7 +14,7 @@ A simple command-line program made to mimic some functionalities of Linux's "gre
 Clone the files from this repo to your machine:
 
 ```bash
-~ $ git clone https://github.com/Tommiri/myGrep.git
+git clone https://github.com/Tommiri/myGrep.git
 ```
 
 <br>
@@ -22,8 +22,7 @@ Clone the files from this repo to your machine:
 Build the executable
 
 ```bash
-~ $ cd myGrep
-~ $ g++ -std=c++17 src/main.cpp src/searchFromFile.cpp src/searchFromString.cpp -o myGrep
+g++ -std=c++17 src/main.cpp src/searchFromFile.cpp src/searchFromString.cpp -o myGrep
 ```
 
 <br>
@@ -45,7 +44,7 @@ i - Ignore case
 <a name="functionality"></a>
 
 ```bash
-~ $ ./myGrep
+./myGrep
 ```
 
 The most basic functionality of the program:
@@ -57,7 +56,7 @@ The most basic functionality of the program:
 <br>
 
 ```bash
-~ $ ./myGrep keyword filename
+./myGrep keyword filename
 ```
 
 The program will search for the keyword from the given file.
@@ -65,7 +64,7 @@ The program will search for the keyword from the given file.
 <br>
 
 ```bash
-~ $ ./myGrep options keyword filename
+./myGrep options keyword filename
 ```
 
 The program will search for the keyword from the given file using user-given options.
