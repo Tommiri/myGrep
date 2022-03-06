@@ -22,15 +22,6 @@ $ git clone https://github.com/Tommiri/myGrep.git
 
 Build the executable
 
-If you have cmake installed:
-
-```
-$ cd myGrep
-$ cmake --build cmake-build-debug
-```
-
-Else:
-
 ```
 $ cd myGrep
 $ g++ src/main.cpp src/searchFromFile.cpp src/searchFromString.cpp include/searchFromFile.h 
