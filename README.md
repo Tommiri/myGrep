@@ -14,24 +14,24 @@ for our "Advanced Features of C++" -course
 
 Clone the files from this repo to your machine:
 
-```
-$ git clone https://github.com/Tommiri/myGrep.git
+```console
+~ $ git clone https://github.com/Tommiri/myGrep.git
 ```
 
 <br>
 
 Build the executable
 
-```
-$ cd myGrep
-$ g++ -std=c++17 src/main.cpp src/searchFromFile.cpp src/searchFromString.cpp -o myGrep
+```console
+~ $ cd myGrep
+~ $ g++ -std=c++17 src/main.cpp src/searchFromFile.cpp src/searchFromString.cpp -o myGrep
 ```
 
 <br>
 
 Run the program from your terminal using this syntax:
 
-```
+```console
 Usage: ./myGrep [[options] [keyword fileName]]
 
 Available options (access with -o)
@@ -45,8 +45,8 @@ i - Ignore case
 
 <a name="functionality"></a>
 
-```
-$ ./myGrep
+```console
+~ $ ./myGrep
 ```
 
 The most basic functionality of the program:
@@ -57,16 +57,16 @@ The most basic functionality of the program:
 
 <br>
 
-```
-$ ./myGrep keyword filename
+```console
+~ $ ./myGrep keyword filename
 ```
 
 The program will search for the keyword from the given file.
 
 <br>
 
-```
-$ ./myGrep options keyword filename
+```console
+~ $ ./myGrep options keyword filename
 ```
 
 The program will search for the keyword from the given file using user-given options. Options are accessed using the '
