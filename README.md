@@ -24,8 +24,7 @@ Build the executable
 
 ```
 $ cd myGrep
-$ g++ src/main.cpp src/searchFromFile.cpp src/searchFromString.cpp include/searchFromFile.h 
-include/searchFromString.h -o myGrep
+$ g++ -std=c++17 src/main.cpp src/searchFromFile.cpp src/searchFromString.cpp -o myGrep
 ```
 
 <br>
