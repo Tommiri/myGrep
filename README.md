@@ -59,7 +59,7 @@ The most basic functionality of the program:
 ./myGrep keyword filename
 ```
 
-The program will search for the keyword from the given file.
+The program will search for the keyword from the given file and display the lines the keyword was found on.
 
 <br>
 
