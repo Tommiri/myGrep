@@ -20,7 +20,16 @@ $ git clone https://github.com/Tommiri/myGrep.git
 
 <br>
 
-Build the executable:
+Build the executable
+
+If you have cmake installed:
+
+```
+$ cd myGrep
+$ cmake --build cmake-build-debug
+```
+
+Else:
 
 ```
 $ cd myGrep
