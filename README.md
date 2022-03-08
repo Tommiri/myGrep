@@ -22,7 +22,7 @@ git clone https://github.com/Tommiri/myGrep.git
 Build the executable:
 
 ```bash
-g++ -std=c++17 src/main.cpp src/searchFromFile.cpp src/searchFromString.cpp -o myGrep
+g++ -std=c++17 src/*.cpp -o myGrep
 ```
 
 <br>
