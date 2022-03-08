@@ -50,8 +50,8 @@ i - Ignore case
 The most basic functionality of the program:
 
 * Input a string you wish to search from
-* Input a string you wish to search for from the first string
-* The program will search the first string for the string you wished to search for
+* Input a string you wish to find from the first string
+* The program will search the first string for the second string
 
 <br>
 
